@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas 3</title>
+</head>
+
+<body>
+
+    <canvas width="600" height="400"></canvas>
+
+</body>
+
+<script>
+    var tela = document.querySelector("canvas");
+    var pincel = tela.getContext("2d");
+
+    pincel.fillStyle = "lightgrey";
+    pincel.fillRect(0, 0, 600, 400);
+
+    function exibeAlerta(evento) {
+
+        var x = (evento.pageX) - (tela.offsetLeft);
+        var y = (evento.pageY) - (tela.offsetTop);
+
+        pincel.fillStyle = "blue";
+        pincel.beginPath();
+        pincel.arc(x, y, 10, 0, (2 * 3.14));
+        pincel.fill();
+
+        //alert("cliquei" + "<br />" + x + ", " + y);
+        console.log(evento);
+    }
+
+    tela.onclick = exibeAlerta;
+
+</script>
+
+</html>

@@ -1,0 +1,151 @@
+body {
+    background-color: #f3f5fc;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    line-height: 150%;
+}
+
+.spacer {
+    margin: 32px;
+}
+
+.spacer_small {
+    margin: 18px;
+}
+
+.spacer_large {
+    margin: 64px;
+}
+
+header {
+
+    
+}
+
+.box {
+    width: 940px;
+	margin: 0 auto;
+}
+
+main {
+
+
+}
+
+.sec_left {
+    float: left;
+    width: calc(100% - 460px);
+}
+
+.sec_right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+textarea {
+    background-color: transparent;
+    border: none;
+    color: #0A3871;
+    font-size: 32px;
+    height: 465px;
+    line-height: 48px;
+    width: 100%;
+}
+
+.warning {
+    color: #495057;
+    font-size: 12px;
+}
+
+.warning::before {
+    background-color: #495057;
+    border-radius: 100%;
+    color: #ffffff;
+    content: "!";
+    margin-right: 8px;
+    padding: 0 6px;
+}
+
+button {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 24px;
+    width: 45%;
+    transition: 200ms;
+}
+
+button:active {
+    transition: 50ms;
+    transform: scale(98%);
+}
+
+.but_cript {
+    background-color: #0A3871;
+    color: #ffffff;
+    margin-right: 8%;
+}
+
+.but_cript:hover {
+    background-color: #1b4f8d;
+    cursor: pointer;
+}
+
+.but_descript {
+    background-color: transparent;
+    color: #0A3871;
+}
+
+.but_descript:hover {
+    background-color: #D8DFE8;
+    cursor: pointer;
+}
+
+.box_result {
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    display: table-cell;
+    height: 631px;
+    padding: 0 32px;
+    text-align: center;
+    vertical-align: middle;
+    width: 400px;
+}
+
+.box_result p {
+    color: #495057;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.box_result .title {
+    color: #343A40;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p a {
+    color: #0A3871;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: 200ms;
+}
+
+footer p a:hover {
+    color: #1b4f8d;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #0A3871;
+}
