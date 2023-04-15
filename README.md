@@ -3,7 +3,7 @@
 Repositório de estudos, atividades e desafios efetuados durante o programa ONE - Oracle Next Education.  
 
 > Iniciado em Abril de 2023.  
-> Término previsto para Agosto de 2026.
+> Término previsto para Agosto de 2023.
 
 ***
 
@@ -12,6 +12,7 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 ***
 
 * Sprint 01: Construa um decodificador de texto com Javascript  
+[Link para a página](.)  
 [Link para o repositório](https://github.com/jaohab/oracle-next-education-t5/tree/main/src/desafios/sprint01)  
 
 ***
@@ -42,4 +43,11 @@ Listas de cursos da 1ª etapa focada em Lógica de Programação.
 
 * ✅ - JavaScript e HTML: pratique lógica com desenhos, animações e um jogo  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/logica-programacao-pratica-desenho-animacoes-jogo/certificate)
-  
+
+***
+
+## ⚪ Links úteis
+
+***
+
+[Como colocar seu projeto no ar com o Github Pages?](https://www.alura.com.br/artigos/como-colocar-projeto-no-ar-com-github-pages)  

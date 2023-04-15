@@ -17,19 +17,9 @@ body {
     margin: 64px;
 }
 
-header {
-
-    
-}
-
 .box {
     width: 940px;
 	margin: 0 auto;
-}
-
-main {
-
-
 }
 
 .sec_left {
@@ -39,6 +29,7 @@ main {
 
 .sec_right {
     float: right;
+    max-height: 660px;
 }
 
 .clear {
@@ -83,34 +74,44 @@ button:active {
     transform: scale(98%);
 }
 
-.but_cript {
+.but_encrypt {
     background-color: #0A3871;
     color: #ffffff;
     margin-right: 8%;
 }
 
-.but_cript:hover {
+.but_encrypt:hover {
     background-color: #1b4f8d;
     cursor: pointer;
 }
 
-.but_descript {
+.but_decrypt {
     background-color: transparent;
     color: #0A3871;
 }
 
-.but_descript:hover {
+.but_decrypt:hover {
     background-color: #D8DFE8;
     cursor: pointer;
 }
 
-.box_result {
+.but_copy {
+    background-color: transparent;
+    color: #0A3871;
+}
+
+.but_copy:hover {
+    background-color: #D8DFE8;
+    cursor: pointer;
+}
+
+.box_result, .box_side {
     background-color: #ffffff;
     border-radius: 32px;
     box-sizing: border-box;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     display: table-cell;
-    height: 631px;
+    height: 660px;
     padding: 0 32px;
     text-align: center;
     vertical-align: middle;
@@ -130,8 +131,25 @@ button:active {
     line-height: 120%;
 }
 
+.innerContent {
+    position: relative;
+    height: 460px;
+    overflow: auto;
+    top: -32px;
+}
+
+div#botao {
+    position: relative;
+    text-align: center;
+    top: -96px;
+}
+
 footer {
     text-align: center;
+}
+
+footer p {
+    font-size: 12px;
 }
 
 footer p a {
@@ -148,4 +166,90 @@ footer p a:hover {
 hr {
     border: none;
     border-top: 1px solid #0A3871;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+
+    body {
+        padding:0 40px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .sec_left {
+        float: none;
+        width: 100%;
+    }
+
+    .sec_right {
+        background-color: #ffffff;
+        border-radius: 32px;
+        box-sizing: border-box;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        float: none;
+        margin-top: 64px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .box_result, .box_side {
+        background-color: none;
+        border-radius: none;
+        box-sizing: none;
+        box-shadow: none;
+        display: inherit;
+        height: inherit;
+        padding: 32px;
+        vertical-align: inherit;
+        width: 100%;
+    }
+
+    #resultado .spacer {
+        display: none;
+    }
+
+    #resultado img {
+        display: none;
+    }
+
+    .innerContent {
+        font-size: 24px;
+        height: inherit;
+        line-height: 36px;
+        max-height: 180px;
+        position: inherit;
+    }
+
+    div#botao {
+        position: inherit;
+        text-align: inherit;
+        top: inherit;
+    }
+
+    div#botao .but_copy {
+        margin-bottom: 32px;
+    }
+
+}
+
+/* Mobile */
+@media screen and (max-width: 512px) {
+
+    .but_encrypt, .but_decrypt {
+        display: block;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .but_copy {
+        width: calc(100% - 60px);
+    }
+
+    .innerContent {
+        max-height: 400px;
+    }
+
 }
