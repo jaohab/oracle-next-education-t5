@@ -12,7 +12,7 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 ***
 
 * Sprint 01: Construa um decodificador de texto com Javascript  
-[Link para a página](.)  
+[Link para a página](https://jaohab.github.io/oracle-next-education-t5/src/desafios/sprint01/index.html)  
 [Link para o repositório](https://github.com/jaohab/oracle-next-education-t5/tree/main/src/desafios/sprint01)  
 
 ***
