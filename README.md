@@ -21,7 +21,7 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 
 ***
 
-Listas de cursos da 1ª etapa focada em Lógica de Programação.  
+    Listas de cursos da 1ª etapa focada em Lógica de Programação.  
 
 * ✅ - Git e Github: controle e compartilhe seu código  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/git-github-controle-compartilhe-codigo/certificate)
@@ -43,6 +43,24 @@ Listas de cursos da 1ª etapa focada em Lógica de Programação.
 
 * ✅ - JavaScript e HTML: pratique lógica com desenhos, animações e um jogo  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/logica-programacao-pratica-desenho-animacoes-jogo/certificate)
+
+***
+
+    Listas de cursos da 2ª etapa focada em Back-end.  
+
+* ✅ - Java JRE e JDK: compile e execute o seu programa  
+[CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/java-jre-jdk-compile-execute-programa/certificate)
+
+* ✅ - Java OO: entendendo a Orientação a Objetos  
+[CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/java-oo-orientacao-objetos/certificate)
+
+* 🟦 - Java Polimorfismo: entenda herança e interfaces
+
+* 🟦 - Java Exceções: aprenda a criar, lançar e controlar exceções
+
+* 🟦 - Java e java.lang: programe com a classe Object e String
+
+* 🟦 - Java e java.util: Coleções, Wrappers e Lambda expressions
 
 ***
 
