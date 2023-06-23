@@ -1,4 +1,7 @@
-package cursos.cursoJAVA;
+package cursos.cursoJAVA.tests;
+
+import cursos.cursoJAVA.Conta;
+import cursos.cursoJAVA.ContaCorrente;
 
 public class TesteCliente {
 
@@ -6,9 +9,9 @@ public class TesteCliente {
 
         System.out.println("\n \u001B[32m ======= TESTE DE CRIAÇÃO ======= \u001B[m \n");
 
-        Conta c1 = new Conta("User1");
-        Conta c2 = new Conta("User2");
-        Conta c3 = new Conta("User3");
+        Conta c1 = new ContaCorrente("User1");
+        Conta c2 = new ContaCorrente("User2");
+        Conta c3 = new ContaCorrente("User3");
 
         System.out.println(c1);
         System.out.println(c2);

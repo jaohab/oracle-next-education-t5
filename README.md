@@ -54,7 +54,8 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 * ✅ - Java OO: entendendo a Orientação a Objetos  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/java-oo-orientacao-objetos/certificate)
 
-* 🟦 - Java Polimorfismo: entenda herança e interfaces
+* ✅ - Java Polimorfismo: entenda herança e interfaces  
+[CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/java-polimorfismo-heranca-interfaces/certificate)
 
 * 🟦 - Java Exceções: aprenda a criar, lançar e controlar exceções
 
@@ -69,3 +70,4 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 ***
 
 [Como colocar seu projeto no ar com o Github Pages?](https://www.alura.com.br/artigos/como-colocar-projeto-no-ar-com-github-pages)  
+[Criando anotações no Java](https://www.alura.com.br/artigos/criando-anotacoes-no-java)  

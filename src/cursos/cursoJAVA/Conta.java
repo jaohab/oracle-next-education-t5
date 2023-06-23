@@ -1,6 +1,6 @@
 package cursos.cursoJAVA;
 
-public class Conta extends Banco {
+public abstract class Conta extends Banco {
 
     private int conta = 0;
     private int agencia = 0;

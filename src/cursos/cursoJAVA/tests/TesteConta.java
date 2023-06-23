@@ -1,4 +1,7 @@
-package cursos.cursoJAVA;
+package cursos.cursoJAVA.tests;
+
+import cursos.cursoJAVA.ContaCorrente;
+import cursos.cursoJAVA.ContaPoupanca;
 
 public class TesteConta {
 
