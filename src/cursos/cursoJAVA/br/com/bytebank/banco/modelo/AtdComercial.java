@@ -1,4 +1,4 @@
-package cursos.cursoJAVA;
+package cursos.cursoJAVA.br.com.bytebank.banco.modelo;
 
 // Atendente comercial
 public class AtdComercial extends Funcionario {

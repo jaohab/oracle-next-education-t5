@@ -1,6 +1,6 @@
-package cursos.cursoJAVA.tests;
+package cursos.cursoJAVA.br.com.bytebank.banco.tests;
 
-import cursos.cursoJAVA.Gerente;
+import cursos.cursoJAVA.br.com.bytebank.banco.modelo.Gerente;
 
 public class TesteFuncionario {
 

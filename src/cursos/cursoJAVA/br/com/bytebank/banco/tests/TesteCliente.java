@@ -1,11 +1,12 @@
-package cursos.cursoJAVA.tests;
+package cursos.cursoJAVA.br.com.bytebank.banco.tests;
 
-import cursos.cursoJAVA.Conta;
-import cursos.cursoJAVA.ContaCorrente;
+import cursos.cursoJAVA.br.com.bytebank.banco.modelo.Conta;
+import cursos.cursoJAVA.br.com.bytebank.banco.modelo.ContaCorrente;
+import cursos.cursoJAVA.br.com.bytebank.banco.modelo.exceptions.SaldoInsuficienteExcecao;
 
 public class TesteCliente {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SaldoInsuficienteExcecao {
 
         System.out.println("\n \u001B[32m ======= TESTE DE CRIAÇÃO ======= \u001B[m \n");
 

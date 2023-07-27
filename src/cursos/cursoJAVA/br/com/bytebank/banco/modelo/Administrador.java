@@ -1,18 +1,18 @@
-package cursos.cursoJAVA;
+package cursos.cursoJAVA.br.com.bytebank.banco.modelo;
 
-import cursos.cursoJAVA.interfaces.Autenticacao;
+import cursos.cursoJAVA.br.com.bytebank.banco.modelo.interfaces.Autenticacao;
 
-public class Gerente extends Funcionario implements Autenticacao {
+public class Administrador extends Funcionario implements Autenticacao {
 
     private Autenticador au;
 
-    public Gerente(int senha) {
+    public Administrador(int senha) {
         au = new Autenticador(senha);
     }
 
     @Override
     public double getBonificao() {
-        return super.getSalario();
+        return (super.getSalario()/2);
     }
 
     @Override

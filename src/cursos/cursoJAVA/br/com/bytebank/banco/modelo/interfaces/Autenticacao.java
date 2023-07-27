@@ -1,4 +1,4 @@
-package cursos.cursoJAVA.interfaces;
+package cursos.cursoJAVA.br.com.bytebank.banco.modelo.interfaces;
 
 public abstract interface Autenticacao {
 

@@ -1,4 +1,6 @@
-package cursos.cursoJAVA;
+package cursos.cursoJAVA.br.com.bytebank.banco.modelo;
+
+import cursos.cursoJAVA.br.com.bytebank.banco.modelo.exceptions.SaldoInsuficienteExcecao;
 
 public abstract class Conta extends Banco {
 
@@ -31,6 +33,7 @@ public abstract class Conta extends Banco {
         this.saldo += valor;
     }
 
+    /*
     public boolean sacarDinheiro(double valor) {
         if (this.saldo >= valor) {
             this.saldo -= valor;
@@ -40,12 +43,18 @@ public abstract class Conta extends Banco {
             return false;
         }
     }
+    */
 
-    public void transferir(double valor, Conta conta) {
-        boolean valido = sacarDinheiro(valor);
-        if (valido) {
-            conta.depositarDinheiro(valor);
-        }
+    public void sacarDinheiro(double valor) throws SaldoInsuficienteExcecao {
+        if (this.saldo < valor) {
+            throw new SaldoInsuficienteExcecao("Saldo: " + this.saldo + " | Valor: " + valor);
+        } 
+        this.saldo -= valor;
+    }
+
+    public void transferir(double valor, Conta conta) throws SaldoInsuficienteExcecao {
+        sacarDinheiro(valor);
+        conta.depositarDinheiro(valor);
     }
 
     @Override

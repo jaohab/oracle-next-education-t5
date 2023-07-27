@@ -1,8 +1,8 @@
-package cursos.cursoJAVA.tests;
+package cursos.cursoJAVA.br.com.bytebank.banco.tests;
 
-import cursos.cursoJAVA.Administrador;
-import cursos.cursoJAVA.Gerente;
-import cursos.cursoJAVA.SistemaInterno;
+import cursos.cursoJAVA.br.com.bytebank.banco.modelo.Administrador;
+import cursos.cursoJAVA.br.com.bytebank.banco.modelo.Gerente;
+import cursos.cursoJAVA.br.com.bytebank.banco.modelo.SistemaInterno;
 
 public class TesteSistema {
 

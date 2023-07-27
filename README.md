@@ -11,9 +11,14 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 
 ***
 
-* Sprint 01: Construa um decodificador de texto com Javascript  
+* Challenge Iniciante em Programação - Decodificador de Texto  
 [Link para a página](https://jaohab.github.io/oracle-next-education-t5/src/desafios/sprint01/index.html)  
 [Link para o repositório](https://github.com/jaohab/oracle-next-education-t5/tree/main/src/desafios/sprint01)  
+
+***
+
+* Challenge Back End Java - Conversor  
+[Link para o repositório](https://github.com/jaohab/one-t5-conversor-moeda)  
 
 ***
 
@@ -57,11 +62,13 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 * ✅ - Java Polimorfismo: entenda herança e interfaces  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/java-polimorfismo-heranca-interfaces/certificate)
 
-* 🟦 - Java Exceções: aprenda a criar, lançar e controlar exceções
+* ✅ - Java Exceções: aprenda a criar, lançar e controlar exceções  
+[CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/java-excecoes-criar-lancar-controlar-excecoes/certificate)
 
-* 🟦 - Java e java.lang: programe com a classe Object e String
+* ✅ - Java e java.lang: programe com a classe Object e String  
+[CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/java-java-lang-classe-object-string/certificate)
 
-* 🟦 - Java e java.util: Coleções, Wrappers e Lambda expressions
+* 🟦 - Java e java.util: Coleções, Wrappers e Lambda expressions  
 
 ***
 

@@ -1,6 +1,6 @@
-package cursos.cursoJAVA;
+package cursos.cursoJAVA.br.com.bytebank.banco.modelo;
 
-import cursos.cursoJAVA.interfaces.Autenticacao;
+import cursos.cursoJAVA.br.com.bytebank.banco.modelo.interfaces.Autenticacao;
 
 public class Autenticador implements Autenticacao {
 

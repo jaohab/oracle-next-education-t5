@@ -1,4 +1,4 @@
-package cursos.cursoJAVA;
+package cursos.cursoJAVA.br.com.bytebank.banco;
 
 public class App {
 

@@ -1,8 +1,8 @@
-package cursos.cursoJAVA.tests;
+package cursos.cursoJAVA.br.com.bytebank.banco.tests;
 
-import cursos.cursoJAVA.ContaCorrente;
-import cursos.cursoJAVA.SeguroDeVida;
-import cursos.cursoJAVA.SistemaImpostos;
+import cursos.cursoJAVA.br.com.bytebank.banco.modelo.ContaCorrente;
+import cursos.cursoJAVA.br.com.bytebank.banco.modelo.SeguroDeVida;
+import cursos.cursoJAVA.br.com.bytebank.banco.modelo.SistemaImpostos;
 
 public class TesteTributacao {
 
