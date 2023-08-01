@@ -2,7 +2,7 @@ package cursos.cursoJAVA.br.com.bytebank.banco.modelo;
 
 import cursos.cursoJAVA.br.com.bytebank.banco.modelo.exceptions.SaldoInsuficienteExcecao;
 
-public abstract class Conta extends Banco {
+public abstract class Conta extends Banco implements Comparable<Conta> {
 
     private int conta = 0;
     private int agencia = 0;
@@ -65,6 +65,11 @@ public abstract class Conta extends Banco {
                 + ", agencia=" + this.agencia
                 + ", conta=" + this.conta
                 + ", saldo=" + saldo + "]";
+    }
+
+    @Override
+    public int compareTo(Conta outra) {
+        return Integer.compare(this.conta, outra.conta);
     }
 
 }

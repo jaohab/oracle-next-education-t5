@@ -3,7 +3,7 @@
 Repositório de estudos, atividades e desafios efetuados durante o programa ONE - Oracle Next Education.  
 
 > Iniciado em Abril de 2023.  
-> Término previsto para Agosto de 2023.
+> Término previsto para Setembro de 2023.
 
 ***
 
@@ -68,7 +68,20 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 * ✅ - Java e java.lang: programe com a classe Object e String  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/java-java-lang-classe-object-string/certificate)
 
-* 🟦 - Java e java.util: Coleções, Wrappers e Lambda expressions  
+* ✅ - Java e java.util: Coleções, Wrappers e Lambda expressions  
+[CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/java-util-colecoes-wrappers-lambdas/certificate)
+
+***
+
+    Listas de cursos da 3ª etapa focada em Back-end.  
+
+* 🟦 - SQL com MySQL: manipule e consulte dados  
+* 🟦 - Java e JDBC: trabalhando com um banco de dados  
+* 🟦 - Persistência com JPA: Hibernate  
+* 🟦 - Java e JPA: consultas avançadas, performance e modelos complexos  
+* 🟦 - Spring Boot 3: desenvolva uma API Rest em Java
+* 🟦 - Spring Boot 3: aplique boas práticas e proteja uma API Rest
+* 🟦 - Spring Boot 3: documente, teste e prepare uma API para o deploy
 
 ***
 
