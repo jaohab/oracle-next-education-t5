@@ -27,6 +27,7 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 ***
 
     Listas de cursos da 1ª etapa focada em Lógica de Programação.  
+    > HTML - CSS - JavaScript
 
 * ✅ - Git e Github: controle e compartilhe seu código  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/git-github-controle-compartilhe-codigo/certificate)
@@ -52,6 +53,7 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 ***
 
     Listas de cursos da 2ª etapa focada em Back-end.  
+    > Java
 
 * ✅ - Java JRE e JDK: compile e execute o seu programa  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/java-jre-jdk-compile-execute-programa/certificate)
@@ -74,8 +76,11 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 ***
 
     Listas de cursos da 3ª etapa focada em Back-end.  
+    > SQL - SpringBoot
 
-* 🟦 - SQL com MySQL: manipule e consulte dados  
+* ✅ - SQL com MySQL: manipule e consulte dados  
+[CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/sql-mysql-manipule-dados-com-sql/certificate)
+
 * 🟦 - Java e JDBC: trabalhando com um banco de dados  
 * 🟦 - Persistência com JPA: Hibernate  
 * 🟦 - Java e JPA: consultas avançadas, performance e modelos complexos  
@@ -91,3 +96,4 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 
 [Como colocar seu projeto no ar com o Github Pages?](https://www.alura.com.br/artigos/como-colocar-projeto-no-ar-com-github-pages)  
 [Criando anotações no Java](https://www.alura.com.br/artigos/criando-anotacoes-no-java)  
+[Conhecendo o JDBC](https://www.alura.com.br/artigos/conhecendo-o-jdbc)  
