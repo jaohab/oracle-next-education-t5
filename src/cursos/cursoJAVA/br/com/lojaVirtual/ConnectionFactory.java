@@ -1,19 +1,34 @@
 package cursos.cursoJAVA.br.com.lojaVirtual;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
+
+import javax.sql.DataSource;
+
+import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 public class ConnectionFactory {
 
-    public Connection connect() throws SQLException {
+    private String url = "jdbc:mysql://localhost/loja_virtual?useTimezone=true&serverTimezone=UTC";
+    private String user = "root";
+    private String pass = "root";
 
-        String url = "jdbc:mysql://localhost/loja_virtual?useTimezone=true&serverTimezone=UTC";
-        String user = "root";
-        String pass = "root";
-        
-        return DriverManager.getConnection(url, user, pass);
+    public DataSource dataSource;
+
+    public ConnectionFactory() {
+        ComboPooledDataSource comboPooledDataSource = new ComboPooledDataSource();
+        comboPooledDataSource.setJdbcUrl(url);
+        comboPooledDataSource.setUser(user);
+        comboPooledDataSource.setPassword(pass);
+
+        comboPooledDataSource.setMaxPoolSize(15);
+
+        this.dataSource = comboPooledDataSource;
+    }
+
+    public Connection connect() throws SQLException {
+        return this.dataSource.getConnection();
 
     }
-    
+
 }

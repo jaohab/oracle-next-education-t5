@@ -81,7 +81,9 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 * ✅ - SQL com MySQL: manipule e consulte dados  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/sql-mysql-manipule-dados-com-sql/certificate)
 
-* 🟦 - Java e JDBC: trabalhando com um banco de dados  
+* ✅ - Java e JDBC: trabalhando com um banco de dados  
+[CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/java-jdbc-trabalhando-banco-dados/certificate)
+
 * 🟦 - Persistência com JPA: Hibernate  
 * 🟦 - Java e JPA: consultas avançadas, performance e modelos complexos  
 * 🟦 - Spring Boot 3: desenvolva uma API Rest em Java
