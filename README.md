@@ -84,7 +84,10 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 * ✅ - Java e JDBC: trabalhando com um banco de dados  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/java-jdbc-trabalhando-banco-dados/certificate)
 
-* 🟦 - Persistência com JPA: Hibernate  
+* ✅ - Persistência com JPA: Hibernate  
+[LINK PARA O REPOSITÓRIO](https://github.com/jaohab/one-t5-jpa)
+[CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/persistencia-jpa-hibernate/certificate)
+
 * 🟦 - Java e JPA: consultas avançadas, performance e modelos complexos  
 * 🟦 - Spring Boot 3: desenvolva uma API Rest em Java
 * 🟦 - Spring Boot 3: aplique boas práticas e proteja uma API Rest
