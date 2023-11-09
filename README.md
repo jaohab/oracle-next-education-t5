@@ -102,15 +102,15 @@ Repositório de estudos, atividades e desafios efetuados durante o programa ONE 
 [LINK PARA O REPOSITÓRIO](https://github.com/jaohab/one-t5-jpa)  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/java-jpa-consultas-performance-modelos-complexos/certificate)
 
-* ✅ - Spring Boot 3: desenvolva uma API Rest em Java
+* ✅ - Spring Boot 3: desenvolva uma API Rest em Java  
 [LINK PARA O REPOSITÓRIO](https://github.com/jaohab/one-t5-spring)  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/spring-boot-3-desenvolva-api-rest-java/certificate)
 
-* ✅ - Spring Boot 3: aplique boas práticas e proteja uma API Rest
+* ✅ - Spring Boot 3: aplique boas práticas e proteja uma API Rest  
 [LINK PARA O REPOSITÓRIO](https://github.com/jaohab/one-t5-spring)  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/spring-boot-aplique-boas-praticas-proteja-api-rest/certificate)  
 
-* ✅ - Spring Boot 3: documente, teste e prepare uma API para o deploy
+* ✅ - Spring Boot 3: documente, teste e prepare uma API para o deploy  
 [LINK PARA O REPOSITÓRIO](https://github.com/jaohab/one-t5-spring)  
 [CERTIFICADO](https://cursos.alura.com.br/user/joao-hab/course/spring-boot-3-documente-teste-prepare-api-deploy/certificate)
 
